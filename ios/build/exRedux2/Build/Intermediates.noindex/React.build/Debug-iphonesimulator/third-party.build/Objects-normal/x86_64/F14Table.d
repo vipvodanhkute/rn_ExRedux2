@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Table.cpp \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Table.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Bits.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Bits.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ConstexprMath.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Portability.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Config.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CPortability.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Utility.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Traits.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Assume.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Builtins.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Likely.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ScopeGuard.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Preprocessor.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/UncaughtExceptions.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/ApplyTuple.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/Invoke.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Align.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Exception.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CppAttributes.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Launder.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/SafeAssert.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Defaults.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14IntrinsicsAvailability.h
