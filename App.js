@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
 import { createStore } from 'redux';
 import Main from './components/main'
 import {Provider} from 'react-redux';
@@ -48,9 +47,24 @@ const reducer=(state=defaultState,action)=>{
           if(e.id!==action.id) return e;
           return {...e, memorized:!e.memorized};
         })
+      };
+      case 'TOGGLE_IS_ADDING':
+      return {
+        ...state,
+        isAdding:!state.isAdding
+      };
+      case 'ADD_WORD':
+      return {
+        ...state,
+        arrWords:[{
+          id:state.arrWords.length+1,
+          en:action.en,vn:action.vn,
+          memorized:false,
+          isShow:false}].concat(state.arrWords)
       }
     default:
       break;
   }
   return state;
 }
+const store=createStore(reducer);

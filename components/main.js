@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { View, Text, FlatList, TouchableOpacity,StyleSheet } from 'react-native';
+import { View, Text, FlatList} from 'react-native';
 import { connect } from 'react-redux';
 import Word from './word';
 import Filter from './filter';
 import Header from './header'
+import Form from './form';
 class Main extends Component {
   getWordList(){
     const {myFilter,myWords}=this.props;
@@ -17,6 +18,7 @@ class Main extends Component {
       <View style={{ backgroundColor: 'yellow', flex: 1, alignSelf: 'stretch',justifyContent:'center'}}>
         <Header/>
         <View style={{flex:10}}>
+          {this.props.myIsAdding ? <Form/> : null}
           <FlatList
             data={this.props.getWordList}
             renderItem={(item) => <Word myWord={item} />}
@@ -32,7 +34,8 @@ class Main extends Component {
 function mapStateToProps(state) {
   return {
     myFilter: state.filterStatus,
-    myWords: state.arrWords
+    myWords: state.arrWords,
+    myIsAdding:state.myIsAdding
   }
 }
 export default connect(mapStateToProps)(Main);

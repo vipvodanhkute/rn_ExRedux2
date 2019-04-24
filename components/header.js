@@ -1,18 +1,20 @@
 import React,{Component} from 'react'
 import {View,Text,TouchableOpacity,StyleSheet} from 'react-native'
-export default class Header extends Component{
+import {connect} from 'react-redux'
+class Header extends Component{
   render(){
     return(
       <View style={styles.header}>
           <Text/>
           <Text>MY WORDS</Text>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={()=>this.props.dispatch({type:'TOGGLE_IS_ADDING'})}>
             <Text>+</Text>
           </TouchableOpacity>
         </View>
     )
   }
 }
+export default connect()(Header);
 styles=StyleSheet.create({
   header:{
     flex:1,

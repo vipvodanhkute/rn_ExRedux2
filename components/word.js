@@ -12,13 +12,14 @@ class Word extends Component{
     const {en,vn,memorized}=this.props.myWords;
     const textDecorationLine=memorized?'line-through':'none';
     const memorizedButtonText=memorized?'forger':'memorized';
+    const meaning = isShow ? vn : '-------'
     return(
       <View style={styles.container}>
         <Text style={{textDecorationLine}}>{en}</Text>
-        <Text>{vn}</Text>
+        <Text>{meaning}</Text>
         <View style={styles.controller}>
             <TouchableOpacity style={styles.button} onPress={this.memorizedWord.bind(this)}>
-              <Text>memorizedButtonText</Text>
+              <Text>{memorizedButtonText}</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.button}>
               <Text>show</Text>
