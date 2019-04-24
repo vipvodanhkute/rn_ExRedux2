@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, TouchableOpacity,StyleSheet } from 'react-native';
-export default class Filter extends Component{et
+import {connect} from 'react-redux'
+class Filter extends Component{
   getTextStyle(statusName){
     const {myFilterStatus}=this.props;
     if(statusName===myFilterStatus) return {color:'yellow',fontWeight:'bold'};
@@ -28,6 +29,7 @@ export default class Filter extends Component{et
 function mapStateToProps(state){
   return {myFilterStatus:state.filterStatus};
 }
+export default connect(mapStateToProps)(Filter)
 const styles=StyleSheet.create({
   container:{
     backgroundColor: '#583C3C',

@@ -4,14 +4,20 @@ import {connect} from 'react-redux';
 class Word extends Component{
   memorizedWord(){
     this.props.dispatch({
-      type:'MEMORIZED',
-      id:this.props.myWords.id
+      type:'TOGGLE_MEMORIZED',
+      id:this.props.myWord.id
+    })
+  }
+  showWord(){
+    this.props.dispatch({
+      type:'TOGGLE_SHOW',
+      id:this.props.myWord.id
     })
   }
   render(){
-    const {en,vn,memorized}=this.props.myWords;
-    const textDecorationLine=memorized?'line-through':'none';
-    const memorizedButtonText=memorized?'forger':'memorized';
+    const {en,vn,memorized,isShow}=this.props.myWord;
+    const textDecorationLine=memorized ? 'line-through':'none';
+    const memorizedButtonText=memorized ? 'forger':'memorized';
     const meaning = isShow ? vn : '-------'
     return(
       <View style={styles.container}>
@@ -21,7 +27,7 @@ class Word extends Component{
             <TouchableOpacity style={styles.button} onPress={this.memorizedWord.bind(this)}>
               <Text>{memorizedButtonText}</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button} onPress={this.showWord.bind(this)}>
               <Text>show</Text>
             </TouchableOpacity>
         </View>

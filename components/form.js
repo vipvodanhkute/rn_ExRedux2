@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import {View,TextInput,TouchableOpacity,StyleSheet} from 'react-native'
+import {View,TextInput,TouchableOpacity,StyleSheet,Text} from 'react-native'
 import {connect} from 'react-redux'
 class Form extends Component{
   constructor(props){
@@ -23,7 +23,7 @@ class Form extends Component{
   }
   render(){
     return(
-      <View style={styles.container}>
+      <View>
         <TextInput
           style={styles.TextInput}
           value={this.state.en}
@@ -36,9 +36,8 @@ class Form extends Component{
           onChangeText={text=>this.setState({vn:text})}
           placeholder="Meaning"
         />
-        />
         <TouchableOpacity onPress={this.onAdd}>
-          <Text>Add</Text>
+          <Text style={styles.Text}>Add</Text>
         </TouchableOpacity>
       </View>
     )
@@ -46,15 +45,13 @@ class Form extends Component{
 }
 export default connect()(Form);
 const styles=StyleSheet.create({
-  container:{
-    alignSelf:'stretch',
-    justifyContent:'center',
-    alignItems:'center'
-  },
   TextInput:{
     height:50,
     backgroundColor:'#E4F6D4',
     margin:10,
     paddingHorizontal:10
+  },
+  Text:{
+    textAlign:'center'
   }
 })

@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Views/ScrollView/RCTScrollContentView.m \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Views/ScrollView/RCTScrollContentView.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Views/RCTView.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/ios/build/exRedux2/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/ios/build/exRedux2/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Views/ScrollView/RCTScrollView.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/hoangphuc/Desktop/Web/rn_ExRedux2/node_modules/react-native/React/Views/ScrollView/RCTScrollableProtocol.h

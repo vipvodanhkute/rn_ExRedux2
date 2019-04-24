@@ -20,8 +20,8 @@ class Main extends Component {
         <View style={{flex:10}}>
           {this.props.myIsAdding ? <Form/> : null}
           <FlatList
-            data={this.props.getWordList}
-            renderItem={(item) => <Word myWord={item} />}
+            data={this.getWordList()}
+            renderItem={({item}) => <Word myWord={item} />}
             keyExtractor={item => item.id}
           />
         </View>
@@ -35,7 +35,7 @@ function mapStateToProps(state) {
   return {
     myFilter: state.filterStatus,
     myWords: state.arrWords,
-    myIsAdding:state.myIsAdding
+    myIsAdding:state.isAdding
   }
 }
 export default connect(mapStateToProps)(Main);
